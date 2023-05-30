@@ -14,6 +14,7 @@ class Customer:
         self._address = address
         self._phone = phone
 
+
     @property
     def customer_id(self):
         return self._customer_id
